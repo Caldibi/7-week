@@ -1,0 +1,396 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.second-div {
+
+    height: 400px;
+    width: auto;
+    background: linear-gradient(90deg, #3933ee, #9c1be2);
+}
+
+.second-div-text {
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    vertical-align: middle;
+}
+
+/*.img2{
+    width: 110px;
+    height: auto;
+}*/
+
+.first-div-h2 {
+    font-size: 5rem;
+}
+
+.first-div-p {
+    font-size: 1.25rem;
+
+}
+
+@media(max-width: 768px) {
+    .first-div .btnf {
+        display: block;
+        width: 50%;
+        margin-bottom: 10px;
+        margin-left: 25%;
+    }
+}
+
+.btn-img {
+    height: 48px;
+    width: 162px;
+}
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+
+.heads:hover {
+    color: blue;
+}
+
+.navbar {
+    line-height: 24px;
+    height: 72px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+.navbar-toggler {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    color: #212529;
+}
+
+.phone-right1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .phone-right1 .circle {
+        width: 60%;
+    }
+}
+
+@media (min-width: 576px) {
+    .phone-right1 .circle {
+        width: 70%;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .phone-right1 .device-wrapper {
+        max-width: 15rem;
+    }
+}
+
+@media (max-width:768px) {
+    .img-fluid {
+
+        width: 160px;
+        height: auto;
+
+    }
+}
+@media (max-width:768px) {
+    .img-fluids {
+
+        width: 160px;
+        height: auto;
+        padding-left: 10px;
+        
+    }
+}
+
+.img-fluids {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.phone-right1 .shape-2 {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: #2937f0;
+    top: 15%;
+    right: 10%;
+}
+
+@media (min-width: 576px) {
+    .d-sm-block {
+        display: block !important;
+    }
+}
+
+img,svg {
+    vertical-align: middle;
+}
+
+.z-1 {
+    z-index: 1 !important;
+}
+
+.phone-right1 .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-10deg);
+    fill: #2937f0;
+    bottom: 15%;
+    left: 10%;
+}
+
+.phone-right1 .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-10deg);
+    fill: #2937f0;
+    bottom: 15%;
+    left: 10%;
+}
+
+@media (min-width: 576px) {
+    .d-sm-block {
+        display: block !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .phone-right1 .circle {
+        width: 60%;
+    }
+}
+
+.phone-right1 .circle {
+    position: absolute;
+    fill: url(#circleGradient);
+    width: 70%;
+    display: none;
+}
+
+.phone-right1 .circle .gradient-start-color {
+    stop-color: #2937f0;
+}
+
+.phone-right1 .circle .gradient-end-color {
+    stop-color: #9f1ae2;
+}
+
+@media (min-width: 576px) {
+    .phone-right1 .circle {
+        width: 70%;
+        display: block;
+    }
+
+    .phone-right1 .device-wrapper {
+        max-width: 12.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .phone-right1 .circle {
+        width: 60%;
+    }
+
+    .phone-right1 .device-wrapper {
+        max-width: 15rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .first-div-h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:768px) {
+    .second-div-text {
+        font-size: 2rem;
+    }
+}
+
+.phone-left1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .phone-left1 .circle {
+        width: 60%;
+        left: auto;
+    }
+}
+
+.phone-left1 .circle {
+    position: absolute;
+    left: 0;
+    fill: url(#circleGradient);
+    width: 70%;
+    display: none;
+}
+
+.phone-left1 .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(10deg);
+    fill: #2937f0;
+    top: 15%;
+    right: 10%;
+}
+
+.phone-left1 .shape-2 {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: #2937f0;
+    bottom: 15%;
+    left: 10%;
+}
+
+@media (min-width: 768px) {
+    .phone-left1 .device-wrapper {
+        max-width: 15rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .d-sm-block {
+        display: block !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .phone-left1 .circle {
+        width: 70%;
+        display: block;
+        left: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .phone-left1 .circle {
+        width: 90%;
+        left: -25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .phone-left1 .circle {
+        width: 80%;
+        left: -10%;
+    }
+}
+
+.icon-feature {
+    font-size: 4rem;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 576px) {
+    .px-sm-0 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .justify-content-lg-between {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+    .px-sm-0 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .alt-img .alt-img-col {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.cta .cta-content {
+    position: relative;
+    z-index: 1;
+}
+
+div.cta {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url("https://images.unsplash.com/photo-1620912189865-1e8a33da4c5e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTg1MDA1Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500");
+    background-position: center;
+    background-size: cover;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.font-alt {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+@media (min-width: 992px) {
+    .flex-lg-row {
+        flex-direction: row !important;
+    }
+}
+
+.app-badge {
+    height: 3rem;
+}
+
+.fifth-div {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
